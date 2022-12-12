@@ -2,6 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
+.dasda {
+  position: absolute;
+  right: 80px;
+  text-align: center;
+  position: relative;
+  justify-content: center;
+}
+
+.daoa {
+  position: absolute;
+  bottom: 150px;
+  text-align: center;
+  position: relative;
+  justify-content: center;
+}
+
+.dodospa {
+  position: absolute;
+  left: 700px;
+  bottom: 90px;
+  text-align: center;
+  position: relative;
+  justify-content: center;
+}
+
+.parapa {
+  position: absolute;
+  left: 80px;
+  text-align: center;
+  position: relative;
+  justify-content: center;
+}
+
 .bg-primary {
   @apply bg-white dark:bg-slate-800;
 }
@@ -19,6 +52,13 @@
             dark:hover:shadow-gray-400/40
 
             hover:text-blue-600;
+}
+
+.product-image {
+  height: 300px;
+  background-image: url("/images/로그인.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 h1,
@@ -41,4 +81,7 @@ a {
 
 p {
   @apply text-slate-500 dark:text-slate-400;
+}
+
+body {
 }

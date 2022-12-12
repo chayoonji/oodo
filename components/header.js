@@ -29,12 +29,12 @@ export default function Header() {
               <a className="mr-5 hover:text-gray-900">홈</a>
             </Link>
 
-            <Link href="/projects">
+            <Link href="/about">
               <a className="mr-5 hover:text-gray-900">프로젝트</a>
             </Link>
 
             <a
-              href="https://open.kakao.com/o/s1BHyWgc"
+              href="https://open.kakao.com/o/sRWIj4Se"
               className="mr-5 hover:text-gray-900"
             >
               연락하기
