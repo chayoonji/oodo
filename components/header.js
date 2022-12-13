@@ -39,6 +39,10 @@ export default function Header() {
             >
               연락하기
             </a>
+
+            <a href="/login" className="mr-5 hover:text-gray-900">
+              로그인
+            </a>
           </nav>
           {/* 다크모드 토글 버튼 작업해야함 */}
           <DarkModeToggleButton />
